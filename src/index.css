@@ -2,9 +2,9 @@
 @tailwind components;
 @tailwind utilities;
 
-a.active hr{
+/* a.active hr{
     display: block;
-}
+} */
 .hero{
     height: 100vh;
     background: url("./assets/gifs/home_page_bg.gif") no-repeat center center fixed black;

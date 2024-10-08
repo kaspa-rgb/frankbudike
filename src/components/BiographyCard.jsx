@@ -11,12 +11,12 @@ const BiographyCard = () => {
         </section>
         <section className="text-17 sm:text-18 text-white font-inter font-light basis-[50%] mb-[10px] lg:mb-0 lg:mr-[20px]">
             <p className="mb-[20px]">Anigbo chukwubudike Budike Franklin is a Nigerian hyperealistic artist, Born and raised in Nigeria, Enugu state precisely! 
-Growing up as Average Nigerian and as the only artist in the family of 6 children faced a lot of struggle in making it out of the streets of Enugu in his pursuit of being a well known pro artist.
-Chukwubudike is a student of computer engineering in ESUT(Enugu state university of science and technology) ...</p>
+                Growing up as Average Nigerian and as the only artist in the family of 6 children faced a lot of struggle in making it out of the streets of Enugu in his pursuit of being a well known pro artist.
+                Chukwubudike is a student of computer engineering in ESUT(Enugu state university of science and technology) ...</p>
                 <p className="mb-[20px]">
                 <div className="flex lg:block justify-center mt-[40px]">
-          <a href="/biography">
-          <button className="text-white font-inter font-semibold border border-white text-white rounded-[40px] w-[212px] h-[48px]">More Details</button>
+          <a href="/frankbudike/biography">
+          <button className="font-inter font-semibold border border-white text-white rounded-[40px] w-[212px] h-[48px]">More Details</button>
           </a>
         </div>
                 </p>

@@ -11,13 +11,13 @@ import Header from './components/Header'
 const App = () => {
   return (
     <div className='bg-black'>
-      <Header />
+      <Navbar />
       <main>
       <Routes>
-        <Route path='/' element={<Home/>} />
-        <Route path='/drawing' element={<Drawings/>} />
-        <Route path='/drawing/:artId' element={<Drawing/>} />
-        <Route path='/biography' element={<Biography/>} />
+        <Route path='/frankbudike/' element={<Home/>} />
+        <Route path='/frankbudike/drawing' element={<Drawings/>} />
+        <Route path='/frankbudike/drawing/:artId' element={<Drawing/>} />
+        <Route path='/frankbudike/biography' element={<Biography/>} />
       </Routes>
       </main>
       <Footer/>

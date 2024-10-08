@@ -7,7 +7,7 @@ const Footer = () => {
   return (
     <div className='bg-black'>
       <footer className="border-t border-t-white mt-[40px]">
-        <div className="container px-[24px] sm:px-[80px] pt-[40px]">
+        <div className="container flex flex-col gap-5 px-[24px] sm:px-[80px] pt-[40px]">
             <div className="mb-[40px]">
                 <p className="text-18 text-white font-normal mb-[20px] max-w-[400px]">Sign up to receive email updates on latest news, available prints and more.</p>
                 <form onSubmit={onSubmitHandler} className="w-full">
@@ -17,12 +17,19 @@ const Footer = () => {
                               <input id="email" type="text" placeholder="Enter email address" required data-testid="test-email" aria-labelledby="email" autoComplete="off" className="h-[54px] px-[16px] text-white text-16 w-full outline-0 border font-inter hide_tap rounded-[8px] focus:border-brand_primary bg-black" name="email"/></div>
                         </div>
                         <div className="flex md:block justify-center">
-                          <button className="bg-red-500 text-white font-inter font-semibold bg-accent text-white h-[54px] w-[160px] rounded-[8px]">Subscribe</button></div>
+                          <button className="bg-red-500 font-inter font-semibold bg-accent text-white h-[54px] w-[160px] rounded-[8px]">Subscribe</button></div>
                     </div>
                 </form>
             </div>
             <div className="flex justify-between items-center pb-[20px]">
-                <div className="flex">
+                <div className="flex flex-row sm:flex-row">
+                  <div>
+                  <p className='text-xl font-medium mb-5 text-white'>GET IN TOUCH</p>
+          <ul className='flex flex-col gap-1 text-white'>
+            <li>+234-705-338-8153</li>
+            <li>frankbudike.com</li>
+          </ul>
+                  </div>
                   <a href="https://www.instagram.com/frank_stud.io?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer" className="shrink-0 w-[26px] mr-[20px]">
                   <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clipPath="url(#clip0_465_2721)">
@@ -43,9 +50,11 @@ const Footer = () => {
                         </svg>
                         </a>
                         
-                        <a href="https://www.linkedin.com/in/anigbo-chukwubudike-arts-92aaa8222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noreferrer" className="shrink-0 w-[26px] mr-[20px]">
-                        <svg className='bg-white h-full' xmlns="http://www.w3.org/2000/svg" viewBox="0 0 500 532"><path d="M416 32H31.9C14.3 32 0 46.5 0 64.3v383.4C0 465.5 14.3 480 31.9 480H416c17.6 0 32-14.5 32-32.3V64.3c0-17.8-14.4-32.3-32-32.3zM135.4 416H69V202.2h66.5V416zm-33.2-243c-21.3 0-38.5-17.3-38.5-38.5S80.9 96 102.2 96c21.2 0 38.5 17.3 38.5 38.5 0 21.3-17.2 38.5-38.5 38.5zm282.1 243h-66.4V312c0-24.8-.5-56.7-34.5-56.7-34.6 0-39.9 27-39.9 54.9V416h-66.4V202.2h63.7v29.2h.9c8.9-16.8 30.6-34.5 62.9-34.5 67.2 0 79.7 44.3 79.7 101.9V416z"/></svg>
+                      <div className='w-5'>
+                      <a href="https://www.linkedin.com/in/anigbo-chukwubudike-arts-92aaa8222?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=ios_app" target="_blank" rel="noreferrer" className="shrink-0 w-[26px] mr-[20px]">
+                      <svg xmlns="http://www.w3.org/2000/svg" className='text-white' width="1.5em" height="1.5em" viewBox="0 0 24 24"><path fill="currentColor" d="M19 3a2 2 0 0 1 2 2v14a2 2 0 0 1-2 2H5a2 2 0 0 1-2-2V5a2 2 0 0 1 2-2zm-.5 15.5v-5.3a3.26 3.26 0 0 0-3.26-3.26c-.85 0-1.84.52-2.32 1.3v-1.11h-2.79v8.37h2.79v-4.93c0-.77.62-1.4 1.39-1.4a1.4 1.4 0 0 1 1.4 1.4v4.93zM6.88 8.56a1.68 1.68 0 0 0 1.68-1.68c0-.93-.75-1.69-1.68-1.69a1.69 1.69 0 0 0-1.69 1.69c0 .93.76 1.68 1.69 1.68m1.39 9.94v-8.37H5.5v8.37z"/></svg>
                       </a>
+                      </div>
                     </div>
                   <button>
                       <a href="#home">
@@ -55,7 +64,9 @@ const Footer = () => {
                       </svg>
                       </a>
                   </button>
+                  
             </div>
+
             <div className="border-t border-t-white">
                 <p className="text-14 sm:text-16 text-white text-center font-inter font-normal">©2024 Frank Budike. All rights Reserved</p>
             </div>
