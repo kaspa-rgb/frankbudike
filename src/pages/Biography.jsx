@@ -1,5 +1,4 @@
 import React from 'react'
-import BiographyCard from '../components/BiographyCard'
 import BiographyCard2 from '../components/BiographCard2'
 
 const Biography = () => {
@@ -9,6 +8,7 @@ const Biography = () => {
       <div  className='text-[20px]'>
       <BiographyCard2/>
       </div>
+      <div className="flex justify-center mb-[20px] mt-[20px]"><a href="https://wa.me/message/4RIDHY4CPZPGI1"><button className=" font-inter font-semibold text-[25px] border border-white text-white rounded-[40px] w-[212px] h-[48px]">Contact Me</button></a></div>
     </div>
   )
 }

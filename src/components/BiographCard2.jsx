@@ -1,5 +1,5 @@
 import React from 'react'
-import { imgAssets , imgAssets2 } from '../assets/images/imgAssets'
+import { imgAssets2 } from '../assets/images/imgAssets'
 
 const BiographyCard2 = () => {
   return (
