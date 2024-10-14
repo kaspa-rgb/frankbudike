@@ -9,7 +9,7 @@ const Home = () => {
     <div className='bg-black' id='home'>
         <Hero/>
         <Gallery/>
-        <div className='p-2 mt-1 '>
+        <div className='p-2 mt-1'>
         <BiographyCard/>
         </div>
         <Services/>

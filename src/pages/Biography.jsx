@@ -1,5 +1,5 @@
 import React from 'react'
-import BiographyCard2 from '../components/BiographCard2'
+import BiographyCard2 from '../components/BiographyCard2'
 
 const Biography = () => {
   return (

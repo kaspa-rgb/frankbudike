@@ -15,7 +15,7 @@ const BiographyCard = () => {
               Chukwubudike is a student of computer engineering in ESUT(Enugu state university of science and technology) ...</p>
           <div className="flex lg:block justify-center mt-[40px]">
             <p className="mb-[20px]">
-            <a href="/frankbudike/biography">
+            <a href="/biography">
             <button className="font-inter font-semibold border sm:ml-[80px] border-white text-white rounded-[40px] w-[212px] h-[48px]">More Details</button>
             </a>
             </p>

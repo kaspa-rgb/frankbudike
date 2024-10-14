@@ -33,13 +33,13 @@ const Navbar = () => {
                     </div>
                     <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                         <div className="flex-shrink-0">
-                            <h1 className="text-xl font-bold text-white">Frank Budike</h1>
+                            <h1 className="text-xl font-bold text-white">Frank Studios</h1>
                         </div>
                         <div className="hidden sm:block sm:ml-6">
                             <div className="flex space-x-4 ml-[90%]">
-                                <a href="/frankbudike/" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Home</a>
-                                <a href="/frankbudike/#gallery" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Gallery</a>
-                                <a href="/frankbudike/biography" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Biography</a>
+                                <a href="/" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Home</a>
+                                <a href="/#gallery" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Gallery</a>
+                                <a href="/biography" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Biography</a>
                                 <a href="https://wa.me/message/4RIDHY4CPZPGI1" className="text-white hover:bg-gray-700 px-3 py-2 rounded-md text-sm font-medium">Contact</a>
                             </div>
                         </div>
@@ -49,9 +49,9 @@ const Navbar = () => {
 
             <div className={`sm:hidden ${isOpen ? '' : 'hidden'}`} id="mobile-menu">
                 <div className="px-2 pt-2 pb-3 space-y-1">
-                    <a href="/frankbudike/" className="text-white hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Home</a>
-                    <a href="/frankbudike/#gallery" className="text-white hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Gallery</a>
-                    <a href="/frankbudike/biography" className="text-white hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Biography</a>
+                    <a href="/" className="text-white hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Home</a>
+                    <a href="/#gallery" className="text-white hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Gallery</a>
+                    <a href="/biography" className="text-white hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Biography</a>
                     <a href="https://wa.me/message/4RIDHY4CPZPGI1" className="text-white hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Contact</a>
                 </div>
             </div>

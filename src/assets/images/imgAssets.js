@@ -14,7 +14,7 @@ import nasboi from './nasboi.jpeg'
 import longArrow from './long-arrow.png'
 //svg's
 import letsTalkSvg  from './lets-talk-white.svg'
-import hamBurger from './hamBurger.svg'
+import hamBurger from './hamburger.svg'
 import calendar from './calendar.svg'
 
 export const imgAssets = {

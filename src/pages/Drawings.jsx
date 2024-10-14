@@ -1,5 +1,5 @@
-import React from 'react'
-import ArtCollection2 from '../components/ArtCollection2'
+import React from 'react';
+import ArtCollection2 from '../components/ArtCollection2';
 const Drawings = () => {
   return (
     <div className='bg-black container px-[16px] sm:px-[80px] sm:text-[60px] sm:pt-[40px] pb-[40px] sm:pb-[80px] md:pt-[10px] min-h-[80vh] md:min-h-[85vh]'>

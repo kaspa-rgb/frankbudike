@@ -1,5 +1,5 @@
-import React, { useState, useContext, useEffect } from 'react'
-import ArtCard2 from './ArtCard2'
+import React, { useState, useContext, useEffect } from 'react';
+import ArtCard2 from './ArtCard2';
 import { ArtContext } from '../context/ArtContext';
 
 const ArtCollection2 = () => {
