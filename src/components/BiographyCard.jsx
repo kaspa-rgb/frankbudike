@@ -1,7 +1,12 @@
-import React from 'react'
-import { imgAssets2 } from '../assets/images/imgAssets'
+import React from 'react';
+import { imgAssets2 } from '../assets/images/imgAssets';
+import { useNavigate } from 'react-router-dom';
 
 const BiographyCard = () => {
+  const navigate = useNavigate();
+  const readMore = ()=>{
+    navigate('biography')
+  }
   return (
     <div className="px-[16px] sm:px-[80px] pb-[10px]">
     <h2 className="text-[44px] pt-[10px] md:text-[80px] text-white text-center font-playFair mb-[10px] sm:mb-[80px]">Biography</h2>
@@ -15,9 +20,7 @@ const BiographyCard = () => {
               Chukwubudike is a student of computer engineering in ESUT(Enugu state university of science and technology) ...</p>
           <div className="flex lg:block justify-center mt-[40px]">
             <p className="mb-[20px]">
-            <a href="/biography">
-            <button className="font-inter font-semibold border sm:ml-[80px] border-white text-white rounded-[40px] w-[212px] h-[48px]">More Details</button>
-            </a>
+            <button onClick={readMore} className="font-inter font-semibold border sm:ml-[80px] border-white text-white rounded-[40px] w-[212px] h-[48px]">More Details</button>
             </p>
           </div>  
         </section>

@@ -9,4 +9,4 @@ Currently, two official plugins are available:
 
 
 
-# By chisom this project pushes to supremeguru/frankbudike
+# By chisom this project pushes to kaspa-rgb/frankbudike

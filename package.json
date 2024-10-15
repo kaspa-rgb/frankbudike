@@ -1,13 +1,13 @@
 {
   "name": "frankbudike",
-  "homepage": "https://supremeguru.github.io/frankbudike",
+  "homepage": "https://kaspa-rgb.github.io/frankbudike",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "vite build",
-    "predeploy": "npm run build",
+    "predeploy": "npm vite build",
     "deploy": "gh-pages -d dist",
     "lint": "eslint .",
     "preview": "vite preview"

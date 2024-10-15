@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 import './artcards.css'
 
 const ArtCard = ({name, image}) => {

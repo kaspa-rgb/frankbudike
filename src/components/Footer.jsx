@@ -1,4 +1,4 @@
-import React from 'react'
+import React from 'react';
 
 const Footer = () => {
   const onSubmitHandler = (event) =>{
@@ -27,7 +27,7 @@ const Footer = () => {
                   <p className='text-xl font-medium mb-5 text-white'>GET IN TOUCH</p>
                     <ul className='flex flex-col gap-1 text-white'>
                       <li>+234-705-338-8153</li>
-                      <li>frankbudike.com</li>
+                      <li>frankstudios.com</li>
                     </ul>
                   </div>
                   <a href="https://www.instagram.com/frank_stud.io?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer" className="shrink-0 w-[26px] mr-[20px]">
@@ -56,7 +56,7 @@ const Footer = () => {
                       </div>
                     </div>
                   <button>
-                      <a href="/#navbar">
+                      <a href="/#home">
                       <svg width="58" height="58" viewBox="0 0 58 58" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[50px] cursor-pointer">
                         <path fillRule="evenodd" clipRule="evenodd" d="M29.9125 16.8744H28.2557H28.2554C28.2554 20.9404 26.5946 23.4154 24.6992 24.894C22.7612 26.406 20.5487 26.8965 19.5098 26.8965V28.5537C20.9029 28.5537 23.4776 27.9489 25.7186 26.2006C26.6648 25.4624 27.5469 24.5236 28.2555 23.3504V41.1289H29.9127V23.3504C30.6213 24.5236 31.5034 25.4624 32.4496 26.2006C34.6906 27.9489 37.2652 28.5537 38.6584 28.5537V26.8965C37.6195 26.8965 35.407 26.406 33.4689 24.894C31.5736 23.4154 29.9128 20.9404 29.9128 16.8744H29.9125Z" fill="white"></path>
                         <rect x="1.24286" y="-1.24286" width="55.5143" height="55.5143" rx="27.7571" transform="matrix(1 0 0 -1 0 55.5143)" stroke="#F6F6F6" strokeWidth="2.48571"></rect>
