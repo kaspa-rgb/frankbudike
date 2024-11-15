@@ -2,11 +2,12 @@ import React from 'react'
 
 const Hero = () => {
   return (
-        <div className="hero relative w-full h-auto">
-            <div className="flex flex-col justify-end absolute bottom-0 w-full h-full text-center pb-[10px] sm:pb-[26px] bg-[#00000070]">
-                <h1 className="text-[90px] sm:text-[120px] md:text-[140px] lg:text-[192px] font-playFair font-semibold leading-none">
-                    <span className="block text-white -ml-[80px] sm:-ml-[160px] md:-ml-[200px] lg:-ml-[240px] hide_tap">Frank</span>
-                    <span className="block text-accent pl-[80px] sm:pl-[130px] md:pl-[130px] lg:pl-[170px] sm:-mt-[20px] hide_tap">Studios</span>
+        <div className="hero relative w-full h-0">
+            <div className="flex flex-col justify-end absolute bottom-0 w-full h-0 text-center pb-[80px] sm:pb-[26px]">
+                <h1 className="text-[90px] sm:text-[120px] md:text-[140px] lg:text-[172px] font-playFair font-semibold leading-none">
+                <span className="block just-sserif text-accent pr-[140px] sm:pr-[230px] md:pr-[280px] lg:pr-[500px] sm:-mt-[20px] hide_tap">This is</span>
+                    <span className="block just-sserif text-white -ml-[80px] sm:-ml-[160px] md:-ml-[200px] lg:-ml-[240px] sm:-mt-[20px] hide_tap md:-mt-[20px] lg:-mt-[20px]">Frank</span>
+                    <span className="block just-sserif text-accent pl-[80px] sm:pl-[130px] md:pl-[130px] lg:pl-[170px] sm:-mt-[40px] hide_tap">Studios</span>
                 </h1>
                 <a href="#gallery" className="flex justify-center mt-[30px] sm:mt-[50px] w-[50px] mx-auto">
                     <svg width="78" height="78" viewBox="0 0 78 78" fill="none" xmlns="http://www.w3.org/2000/svg" className="w-[50px] cursor-pointer animate-bounce">

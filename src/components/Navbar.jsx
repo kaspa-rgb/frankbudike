@@ -35,7 +35,7 @@ const Navbar = () => {
                     </div>
                     <div className="flex-1 flex items-center justify-center sm:items-stretch sm:justify-start">
                         <div className="p-2">
-                            <h1 className="text-xl font-bold text-white">Frank Studios</h1>
+                            <h1 className="text-xl just-sserif font-bold text-white">Frank Studios</h1>
                         </div>
                         <div className="hidden sm:block sm:ml-6">
                             <div className="flex space-x-4 ml-[90%]">
@@ -50,7 +50,7 @@ const Navbar = () => {
                 </div>
             </div>
 
-            <div className={`sm:hidden ${isOpen ? '' : 'hidden'}`} id="mobile-menu">
+            <div className={`translate-0  ${isOpen ? '' : 'hidden translate-x-0'}`} id="mobile-menu">
                 <div className="px-2 pt-2 pb-3 space-y-1">
                     <Link to="/" className="text-white hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Home</Link>
                     <Link to="/#gallery" className="text-white hover:bg-gray-700 block px-3 py-2 rounded-md text-base font-medium">Gallery</Link>

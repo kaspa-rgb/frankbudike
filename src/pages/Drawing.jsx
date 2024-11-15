@@ -27,7 +27,7 @@ const Drawing = () => {
     fetchArtData();
   },[artwork])
   return artData ? (
-    <div className='flex flex-col sm:flex-row p-2'>
+    <div className='flex flex-col sm:flex-row p-2 bg-black'>
     {/* drawing description Left Side */}
     <div className='w-full sm:w-1/2 '>
       <div className='text-white mt-5'>

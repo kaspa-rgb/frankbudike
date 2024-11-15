@@ -9,7 +9,7 @@ const Gallery = () => {
   }
   return (
     <div className='py-[10px] ' id="gallery">
-      <h2 className="text-[44px] font-[35px] md:text-[80px] text-white text-center font-playFair mb-[10px] sm:mb-[20px]">Gallery</h2>
+      <h2 className="text-[44px] font-[35px] just-sserif md:text-[80px] text-white text-center font-playFair mb-[10px] sm:mb-[20px]">Gallery</h2>
       <div className=''>
       <div className="flex ml-5 overflow-x-scroll">
       <ArtCollection/>

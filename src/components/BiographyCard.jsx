@@ -9,7 +9,7 @@ const BiographyCard = () => {
   }
   return (
     <div className="px-[16px] sm:px-[80px] pb-[10px]">
-    <h2 className="text-[44px] pt-[10px] md:text-[80px] text-white text-center font-playFair mb-[10px] sm:mb-[80px]">Biography</h2>
+    <h2 className="text-[44px] just-sserif pt-[10px] md:text-[80px] text-white text-center font-playFair mb-[10px] sm:mb-[80px]">Biography</h2>
     <div className="flex flex-col lg:flex-row items-center">
     <section className="basis-[50%] gap-8">
             <img alt="hero" loading="lazy" className='color-transparent rounded-2xl' width="500" height="304" decoding="async" data-nimg="1" src={imgAssets2.budike} />

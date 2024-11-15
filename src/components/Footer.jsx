@@ -8,9 +8,9 @@ const Footer = () => {
     <div className='bg-black'>
       <footer className="border-t border-t-white mt-[40px]">
         <div className="flex flex-col gap-5 px-[24px] sm:px-[80px] pt-[40px]">
-            <div className="mb-[10px]">
-                <p className="text-18 text-white font-normal mb-[20px] max-w-[400px]">Sign up to receive email updates on latest news, available prints and more.</p>
-                <form onSubmit={onSubmitHandler} className="w-full">
+            {/* <div className="mb-[10px]"> */}
+                <p className="text-18 text-white font-normal max-w-[400px]">Sign up to receive{/*email*/} updates on latest news, available prints and more.</p> 
+                {/* <form onSubmit={onSubmitHandler} className="w-full">
                     <div className="sm:flex">
                         <div className="mb-[10px] md:mb-0 mr-[8px] w-full md:w-[400px]">
                             <div className="relative mb-[3.5px] input-container w-full">
@@ -19,18 +19,18 @@ const Footer = () => {
                         <div className="flex md:block justify-center">
                           <button className="bg-red-600 font-inter font-semibold bg-accent text-white h-[54px] w-[160px] rounded-[8px]">Subscribe</button></div>
                     </div>
-                </form>
-            </div>
+                </form> */}
+            {/* </div> */}
             <div className="flex justify-between items-center pb-[20px]">
                 <div className="flex flex-row sm:flex-row">
                   <div>
                   <p className='text-xl font-medium mb-5 text-white'>GET IN TOUCH</p>
                     <ul className='flex flex-col gap-1 text-white'>
                       <li>+234-705-338-8153</li>
-                      <li>frankstudios.com</li>
+                      <li>frankstudioscom.vercel.app</li>
                     </ul>
                   </div>
-                  <a href="https://www.instagram.com/frank_stud.io?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer" className="shrink-0 w-[26px] mr-[20px]">
+                  <a href="https://www.instagram.com/frank_stud.io?utm_source=ig_web_button_share_sheet&igsh=ZDNlZDc0MzIxNw==" target="_blank" rel="noreferrer" className="shrink-0 ml-2 w-[26px] mr-[20px]">
                   <svg viewBox="0 0 20 20" fill="none" xmlns="http://www.w3.org/2000/svg">
                             <g clipPath="url(#clip0_465_2721)">
                                 <path
