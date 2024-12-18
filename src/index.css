@@ -4,7 +4,7 @@
 
 .hero{
     height: 100vh;
-    background: url("blob:https://giphy.com/19cc40fc-99cf-4a59-bae1-151b61198a2e") no-repeat center center fixed black;
+    background: url("./assets/gifs/homepage-bg.gif") no-repeat center center fixed black;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
