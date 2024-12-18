@@ -2,13 +2,13 @@ import React from 'react'
 
 const Hero = () => {
   return (
-        <div className="hero relative w-full h-0">
+        <div className="hero w-full">
             <div className="flex flex-col justify-end absolute bottom-0 w-full h-0 text-center pb-[80px] sm:pb-[26px]">
                 <div className='ml-auto'>
-                <h1 className="text-[90px] sm:text-[120px] md:text-[140px] lg:text-[172px] font-playFair font-semibold leading-none">
-                <span className="block just-sserif text-black pr-[140px] sm:pr-[230px] md:pr-[280px] lg:pr-[500px] sm:-mt-[20px] hide_tap"> <span className='text-gray-500 just-sserif'>Hi</span> w're</span>
-                    <span className="block just-sserif text-black -ml-[80px] sm:-ml-[160px] md:-ml-[200px] lg:-ml-[240px] sm:-mt-[20px] hide_tap md:-mt-[20px] lg:-mt-[20px]">Frank</span>
-                    <span className="block just-sserif text-gray-500 pl-[80px] sm:pl-[130px] md:pl-[130px] lg:pl-[170px] sm:-mt-[40px] hide_tap">Studios</span>
+                <h1 className="text-[90px] sm:text-[100px] md:text-[140px] lg:text-[110px] font-playFair font-semibold leading-none">
+                <span className="block just-sserif text-black pr-[140px] sm:pr-[230px] md:pr-[280px] lg:pr-[500px] sm:-mt-[20px] hide_tap"> <span className='text-white-500 just-sserif'>Hi</span> w're</span>
+                    <span className="block just-sserif text-white -ml-[80px] sm:-ml-[160px] md:-ml-[200px] lg:-ml-[240px] sm:-mt-[20px] hide_tap md:-mt-[20px] lg:-mt-[20px]">Frank</span>
+                    <span className="block just-sserif text-white-500 pl-[80px] sm:pl-[130px] md:pl-[130px] lg:pl-[170px] sm:-mt-[40px] lg:mt-[2px] hide_tap">Studios</span>
                 </h1>
                 </div>
                 <a href="#gallery" className="flex justify-center mt-[30px] sm:mt-[50px] w-[50px] mx-auto">
