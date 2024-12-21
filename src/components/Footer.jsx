@@ -66,6 +66,8 @@ const Footer = () => {
             </div>
             <div className="border-t border-t-white">
                 <p className="text-14 sm:text-16 text-white text-center font-inter font-normal">©2024 Frank Studios. All rights Reserved</p>
+                <p className="text-14 sm:text-16 text-white text-center font-inter font-normal">Made by kaspa-rgb and SupremeGuru</p>
+                <hr className='mb-3' />
             </div>
         </div>
     </footer>
