@@ -17,16 +17,17 @@ const App = () => {
     <div className='bg-black' id='home'>
       <Navbar/>
       <Routes>
-        <Route exact path='/' element={
-              <>
+        {/* <Route exact path='/' element={
+              <div>
                 <Hero/>
                 <Gallery/>
                 <div className='p-2 mt-1'>
                 <BiographyCard/>
                 </div>
                 <Services/>
-              </>
-        } />
+              </div>
+        } /> */}
+                <Route exact path='/' element={<Home/>} />
         <Route exact path='/drawing' element={<Drawings/>} />
         <Route exact path='/drawing/:artId' element={<Drawing/>} />
         <Route exact path='/biography' element={<Biography/>} />
