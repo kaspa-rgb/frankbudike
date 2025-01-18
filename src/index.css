@@ -5,6 +5,8 @@
 .hero{
     height: 89vh;
     background: url("./assets/gifs/homepage-bg.gif") no-repeat center center fixed black;
+    background-image: url("./assets/gifs/homepage-bg.gif");
+    background-position: 50% 50%;
     -webkit-background-size: cover;
     -moz-background-size: cover;
     -o-background-size: cover;
